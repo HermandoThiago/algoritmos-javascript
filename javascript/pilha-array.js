@@ -24,6 +24,10 @@ class Stack {
         return this.itens.length
     }
 
+    clear(){
+        return this.itens = []
+    }
+
 }
 
 
@@ -47,4 +51,10 @@ console.log(books.peek())
 console.log(books.isEmpty())
 
 // Retornando a quantidade de elementos no array
+console.log(books.size())
+
+// Limapndo todos os elementos
+books.clear()
+
+// Retornando a quantidade de elementos
 console.log(books.size())
